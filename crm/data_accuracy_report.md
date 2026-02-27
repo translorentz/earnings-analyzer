@@ -66,7 +66,11 @@ v1 appears to have swapped or misattributed Q1 and Q4 OCF values for FY2023.
 
 v3's gross profit figures match S&P Global Market Intelligence data exactly. v1 is rounded to hundredths of a billion, causing differences of $6–$146M.
 
-### 5. Revenue — Minor Rounding Differences
+### 5. Total RPO — v3 Wrong for FY2023 Q3
+
+v3 lists FY2023 Q3 Total RPO as $40.8B. The official Q3 FY23 press release (November 30, 2022) states: "Remaining performance obligation ended the third quarter at $40.0 billion." No other Salesforce quarter reported $40.8B, so this is a data entry error rather than a transposition.
+
+### 6. Revenue — Minor Rounding Differences
 
 All three sources agree on revenue. v3 provides exact $M figures matching SEC filings. v1 and v2 round to $B. Largest rounding gaps in v2: FY2026 Q2 ($10.20B vs $10,236M) and Q3 ($10.30B vs $10,259M).
 
@@ -76,7 +80,7 @@ All three sources agree on revenue. v3 provides exact $M figures matching SEC fi
 
 | Source | Revenue | GAAP EPS | Non-GAAP EPS | Gross Profit | GAAP Op Income | Net Income | OCF | Verdict |
 |--------|---------|----------|-------------|-------------|----------------|------------|-----|---------|
-| **v3** | Exact ($M) | Correct | N/A | Exact ($M) | Correct | Correct | Correct | **Most Accurate** |
+| **v3** | Exact ($M) | Correct | N/A | Exact ($M) | Correct | Correct | Correct | **Most Accurate** (1 RPO error) |
 | **v2** | Rounded ($B) | N/A | 1 error (FY25 Q4) | N/A | N/A | N/A | N/A | Accurate for non-GAAP (1 error) |
 | **v1** | Rounded ($B) | Correct | 1 error (FY23 Q1) | Imprecise | Wrong (6 Qs) | Correct | Wrong (FY23) | Least Accurate |
 
